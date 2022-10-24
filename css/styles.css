@@ -26,7 +26,7 @@ img{
 }
 /*This is to make sure the logo appear in the middle for a mobile viewport's header*/
 header img{
-  margin-left: 140px;
+  margin-left: 130px;
   width: auto;
   height:170px;
   /*Time the takes the logo to adjust position when changing to different screen size on a larger screen*/
@@ -87,9 +87,8 @@ main{
 
 /*Adjusting the alignment of the videos of this div id*/
 #Hair-Videos{
-   display:block;
    margin-left: auto;
-   margin-right: 3.2px;
+   margin-right: auto;
    width: 90%;
    text-align: center;
 }
@@ -127,7 +126,7 @@ h2{
   margin-left: 1.5px;
   color:#00CC00;
 }
-
+/*Hover effects on social media icons */
 .social-icon:hover{
   color: #990066;
   transition-duration: 0.2s;
@@ -146,6 +145,7 @@ h2{
 .tel-num{
   display: none;
 }
+
 .tel-link{
   display: block;
 }
@@ -269,10 +269,9 @@ header{
   .tel-num{
     display: block;
   }
-  /*Phone number does not need to appear without a link in a mobile(default) viewport*/
+  /*Visible number should appear on desktop viewport instead of a phone link*/
   .tel-link{
-    display:none;
-    color: #aaa;
+    display: none;
   }
 
 }
@@ -302,12 +301,8 @@ header{
     margin: 0 5em;
     text-align:center;
   }
-  .tel-link{
-    display: block;
-  }
-  .tel-num{
-    display: none;
-  }
+
+
   .tablet{
     display: none;
   }
