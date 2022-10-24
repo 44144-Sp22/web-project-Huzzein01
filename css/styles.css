@@ -26,11 +26,11 @@ img{
 }
 /*This is to make sure the logo appear in the middle for a mobile viewport's header*/
 header img{
-  margin-left: 130px;
+  margin-left: 105px;
   width: auto;
   height:170px;
   /*Time the takes the logo to adjust position when changing to different screen size on a larger screen*/
-  transition-duration: 4s;
+  transition-duration: 3s;
 
 }
 
@@ -85,8 +85,9 @@ main{
 }
 
 
-/*Adjusting the alignment of the videos of this div id*/
+/*Removing Hair video display from mobile viewport*/
 #Hair-Videos{
+  display: none;
    margin-left: auto;
    margin-right: auto;
    width: 90%;
@@ -217,6 +218,7 @@ header{
    max-width: 100%
  }
  #Hair-Videos{
+   display:block;
    width: 100%;
    margin: 0 1.5em;
  }
