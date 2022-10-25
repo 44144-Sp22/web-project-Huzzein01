@@ -12,7 +12,7 @@ body,header,nav,main,footer,h1,div,img,ul{
 body{
   background-color: #000;
 }
-/*Header for the mobile viewport*/
+/*Styles rule for Header in all viewport*/
 header{
   position: -webkit-sticky;
   position: sticky;
@@ -26,10 +26,11 @@ img{
 }
 /*This is to make sure the logo appear in the middle for a mobile viewport's header*/
 header img{
+  /*Aligns to the middle of the screen, tested on my mobile device*/
   margin-left: 105px;
   width: auto;
   height:170px;
-  /*Time the takes the logo to adjust position when changing to different screen size on a larger screen*/
+  /*Time  taken to adjust position when changing from mobile to larger screen*/
   transition-duration: 3s;
 
 }
@@ -163,7 +164,7 @@ footer p a{
   text-decoration: none;
 }
 /*Media query for Tablet screen viewport*/
-@media screen and (min-width: 630px){
+@media screen and (min-width: 769px){
 header{
   float:left;
 }
