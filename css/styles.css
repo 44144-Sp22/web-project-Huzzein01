@@ -14,8 +14,8 @@ body{
 }
 /*Styles rule for Header in all viewport*/
 header{
-  position: -webkit-sticky;
-  position: sticky;
+  position:-webkit-sticky;
+  position:sticky;
   background-color: #000;
   height: 170px;
 }
@@ -88,7 +88,7 @@ main{
 
 /*Removing Hair video display from mobile viewport*/
 #Hair-Videos{
-  display: none;
+  display: inline-block;
    margin-left: auto;
    margin-right: auto;
    width: 90%;
